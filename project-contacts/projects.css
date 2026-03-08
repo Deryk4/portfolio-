@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-bar > .nav-links {
+        margin-top: 10px;
+    }
+    .hero {
+        padding: 20px;
+    }
+    .hero > .projects-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+body{
+    margin: 0;
+    background-image: url("../images/pc.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Navigation Bar Styles */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0  30px;
+}
+.nav-bar .name h3{
+    color: goldenrod;
+    font-size: 24px;
+    font-weight: 900;
+    
+    
+}
+.nav-bar > .nav-links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar > .nav-links a:hover{
+    color: goldenrod;
+}
+
+/* Main Content Styles */
+.hero{
+    /* background-color: rgba(0, 0, 0, 0.5);*/
+    color: white;
+    align-items: center;
+    padding: 20px 100px;  
+}
+.hero > .intro{
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: goldenrod;
+}
+.hero > .projects-container{
+    display: flex;
+    gap: 40px;
+
+}
+.hero > .projects-container > .project-card{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.5);
+}
+.project-card h4{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    color: goldenrod;
+}
+.project-card p{
+    font-size: 14px;
+    color: white;
+}
+.project-card .btn{
+    display: inline-block;
+    background-color: transparent;
+    padding: 2px 8px;
+    gap: 2px;
+    border-radius: 5px;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.project-card .view-btn{
+    display: inline-block;
+    background-color: transparent;
+    color: goldenrod;
+    padding: 5px 10px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.low-bar{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
