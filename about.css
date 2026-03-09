@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    body{
+        margin:auto;
+        height: fit-content;
+    }
     .nav-bar {
         flex-direction: column;
         align-items: center;
