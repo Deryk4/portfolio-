@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    body{
+        margin:auto;
+        height: 100vh;
+    }
     .hero {
         grid-template-columns: 1fr;
         text-align: center;
