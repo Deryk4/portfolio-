@@ -4,8 +4,11 @@
         height: 100vh;
     }
     .hero {
-        grid-template-columns: 1fr;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
     }
     .hero > .intro {
         order: 1;
