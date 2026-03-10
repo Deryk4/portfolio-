@@ -37,7 +37,7 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        position: relative;
+        position: fixed;
         bottom: 0;
     }
 }
@@ -141,10 +141,12 @@ body{
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
 .lower-bar{
+    width: 100%;
+    height: 10px;
     display: flex;
     justify-content: center;
-    padding: 20px 40px ;
-    position: relative;
+    padding: 0 40px 30px 40px;
+    position: fixed;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
