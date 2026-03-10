@@ -17,6 +17,7 @@
 body{
     margin: 0;
     background-image: url("../images/pc.jpeg");
+    background: rgba(0, 0, 0, 1.5) rgba(0, 0, 0, 1.5) url("../images/pc.jpeg") no-repeat center center fixed;
     background-size: cover;
     background-repeat: none;
     background-position: center;
@@ -60,7 +61,12 @@ body{
     margin-bottom: 20px;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    color: goldenrod;
+    color: gold;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 5px;
+    border-radius: 20px;
+    width: fit-content;
 }
 .hero > .projects-container{
     display: flex;
@@ -68,7 +74,7 @@ body{
 
 }
 .hero > .projects-container > .project-card{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     height: 200px;
     width: 300px;
     padding: 20px;
