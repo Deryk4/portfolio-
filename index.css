@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
     body{
         margin:auto;
-        height: max-content;
+        height: default;
     }
     .hero {
         display: flex;
